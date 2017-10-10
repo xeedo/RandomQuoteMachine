@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Random Quote Machine</title>
-    <link rel="styesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <button type="button" onclick="getQuote()">Get Quote!</button>
+    <ul>
+      <li><button type="button" onclick="getQuote()">Get Quote!</button></li>
+      <li id="tweetBtn"></li>
+    </ul>
     <div id="quote"></div>
     <h1 id="author"></h1>
     <script src="assets/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="assets/script.js"></script>
   </body>
 </html>

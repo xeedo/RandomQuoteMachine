@@ -1,0 +1,29 @@
+div#new-button {
+  display: block;
+  text-align: right;
+}
+
+li {
+  width: auto;
+  display: inline;
+}
+
+button {
+  position: relative;
+  bottom: 10px;
+  border-radius: 10%;
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 0.4em;
+  margin-top: 0px;
+}
+
+button:hover {
+  background-color: #528b8b;
+  cursor: pointer;
+}
+
+.twitter-share-button {
+  margin-top: 10px;
+}
