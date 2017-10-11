@@ -3,7 +3,7 @@ $("document").ready(function() {
 });
 
 function getQuote() {
-  $.getScript("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=myFunc");
+  $.getScript("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=myFunc");
 }
 
 function myFunc(myObj) {
