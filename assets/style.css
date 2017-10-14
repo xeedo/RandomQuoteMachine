@@ -1,29 +1,57 @@
-div#new-button {
-  display: block;
-  text-align: right;
+body {
+  background-color: #b0d8e0;
 }
 
-li {
-  width: auto;
-  display: inline;
+.flex-buttons {
+  display: -webkit-flex;
+  display: flex;
+  max-width: 530px;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
-  position: relative;
-  bottom: 10px;
-  border-radius: 10%;
-  background-color: #008cba;
+  border-radius: 8%;
+  background-color: #1b95e0;
+  font-family: sans-serif;
+  font-size: 0.8em;
   border: none;
+  margin-right: 1em;
+  height: 28px;
   color: white;
   padding: 0.4em;
-  margin-top: 0px;
 }
 
 button:hover {
-  background-color: #528b8b;
+  background-color: #0084b4;
   cursor: pointer;
 }
 
 .twitter-share-button {
+
+}
+
+.flex-quote {
+  max-width: 500px;
+  background-color: #fff8e0;
+  padding: 10px 15px;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 5px #888;
+}
+
+#quote {
+  font-family: "Allan", sans-serif;
+  font-size: 1.3em;
+  text-shadow: 3px 3px 2px #d3d3d3;
+}
+
+h1 {
+  text-align: right;
+  font-family: serif;
+  font-size: 1.5em;
+  font-weight: normal;
 }
